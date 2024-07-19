@@ -1,5 +1,6 @@
 import { Request } from "express";
 import { AuthenticateOptions as PassportAuthenticateOptions, Profile as passportProfile, Strategy as passportStrategy } from "passport";
+import * as oauth2 from "passport-oauth2";
 
 export interface Profile extends passportProfile {
 	id: string;
@@ -32,6 +33,8 @@ export interface StrategyOption {
 export interface StrategyOptionWithRequest extends StrategyOption {
 	passReqToCallback: true;
 }
+
+export type VerifyCallback = oauth2.VerifyCallback;
 
 export type VerifyFunction = (accessToken: string, refreshToken: string, profile: Profile, done: (error: any, user?: any, info?: any) => void) => void;
 
