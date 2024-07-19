@@ -3,6 +3,7 @@
 	"version": "3.0.0-pre.1",
 	"description": "Passport for LinkedIn OAuth2 API v2",
 	"main": "./lib",
+	"types": "./index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/QSXL/passport-linkedin-oauth2.git"
