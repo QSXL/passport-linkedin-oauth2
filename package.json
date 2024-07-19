@@ -1,6 +1,6 @@
 {
 	"name": "@qsxlpublic/passport-linkedin-oauth2",
-	"version": "3.0.0-qsxl.1.0.1",
+	"version": "3.0.0-qsxl.1.0.2",
 	"description": "Passport for LinkedIn OAuth2 API v2",
 	"main": "./lib",
 	"types": "./index.d.ts",
